@@ -1,0 +1,14 @@
+{
+  "name": "notes-webapp-full-stack",
+  "version": "1.0.0",
+  "description": "Full Stack Notes App",
+  "type": "module",
+  "scripts": {
+    "start": "cd Backend && npm start",
+    "server": "cd Backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "build": "npm install --prefix Backend && npm install --prefix frontend --include=dev && npm run build --prefix frontend"
+  },
+  "author": "",
+  "license": "ISC"
+}
